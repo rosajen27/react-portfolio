@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Project Title",
+        "imageURL": "url",
+        "technologies": "svg",
+        "description": "description",
+        "repoURL": "repoURL",
+        "deployedURL": "deployedURL"
+    }
+]
