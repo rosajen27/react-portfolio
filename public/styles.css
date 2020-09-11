@@ -79,3 +79,8 @@
     height: 40px;
     width: 10%;
   }
+
+  .social-media-icon {
+    width: 50px;
+    padding-left: 10px;
+  }

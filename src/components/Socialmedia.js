@@ -1,15 +1,13 @@
 import React from "react";
 
-function Socialmedia() {
-  return (
-<div>
-    <a href="https://github.com/rosajen27"><img src="assets/github-icon.png" alt="GitHub"
-    class="social-media-icons" /></a>
 
-<a href="https://www.linkedin.com/in/rosajen27/"><img src="assets/linkedin-icon.png" alt="Linkedin"
-    class="social-media-icons" /></a>
-</div>
-  );
+function Socialmedia() {
+    return (
+        <div>
+        <img className="social-media-icon" src="https://github.com/rosajen27/react-portfolio/blob/master/assets/linkedin-icon.png?raw=true" alt="Linkedin" />
+        <img className="social-media-icon" src="https://github.com/rosajen27/react-portfolio/blob/master/assets/github-icon.png?raw=true" alt="Github" />
+        </div>
+    );
 }
 
 export default Socialmedia;
