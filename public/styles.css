@@ -63,8 +63,10 @@
   /* HOME SECTION */
 
   .home {
+    color: #fff;
     height: 100vh;
     margin: auto -16px;
+    background-image: url("./bluebg.png");
   }
 
   .hometitle {
