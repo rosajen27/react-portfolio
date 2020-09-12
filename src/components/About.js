@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div className="darkbg">
+        <div className="lightbg">
             <div className="row">
                 <div className="col-6-right">
                     <img className="profile-img" src="https://github.com/rosajen27/react-portfolio/blob/master/public/Headshot1.JPG?raw=true" alt="profile-img" />

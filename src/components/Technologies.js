@@ -2,9 +2,10 @@ import React from "react";
 
 function Technologies() {
     return (
-        <div className="lightbg">
-            <h1>Technologies</h1>
-            <p>Lorem ipsum....</p>
+        <div className="darkbg">
+            <div className="technologies">
+                <h2>Technologies</h2>
+            </div>
         </div>
     );
 }

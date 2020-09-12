@@ -16,8 +16,7 @@
   /* FOOTER */
   footer {
     text-align: center;
-    color: #fff;
-    background-color: #1B1B1B;
+    background-color: #eee;
     margin: auto -16px;
     padding: 50px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -30,7 +29,7 @@
 
   /* HEADER + NAVBAR */
   .navbar {
-    background-color: #1B1B1B;
+    background-color: #eee;
     margin: auto -16px;
     padding: 16px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -41,7 +40,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1B1B1B;
+    background-color: #eee;
   }
   
   li {
@@ -50,14 +49,14 @@
   
   li a {
     display: block;
-    color: white;
+    color: #111;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    color: #0088fe;
   }
 
   /* HOME SECTION */
@@ -66,24 +65,31 @@
     color: #fff;
     height: 100vh;
     margin: auto -16px;
-    background-image: url("./bluebg.png");
+    background-image: url("./bluebg2.png");
+    background-size: 100% 100%;
   }
 
   .hometitle {
-    font-size: 7rem;
+    font-size: 10rem;
     text-align: center;
     padding-top: 300px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
   }
 
   .hometitledescription {
     text-align: center;
     font-size: 2rem;
-    background-color: #f32840;
     padding: 10px 0;
+    font-weight: lighter;
   }
 
   .scrolldown a {
     color: #fff;
+  }
+
+  .scrolldown a:hover {
+    color: lightgray;
   }
 
   .chevron-circle-down {
@@ -92,10 +98,17 @@
     left: 50%;
     margin: 0 -16px;
     bottom: 0;
-    opacity: 50%;
   }
 
   /* ABOUT */
+  .aboutdescription h2,
+  .technologies h2,
+  .projects h2,
+  .contact h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    font-weight: lighter;
+  }
 
   .aboutdescription {
     line-height: 40px;
@@ -107,6 +120,11 @@
     width: 50%;
   }
 
+  /* TECHNOLOGIES */
+  .technologies {
+    padding-top: 25px;
+  }
+
   /* Dark Background Component */
   .darkbg {
     color: #fff;
@@ -115,6 +133,8 @@
     margin: auto -16px;
     text-align: center;
     padding-top: 25px;
+    background-image: url("./bluebg2.png");
+    background-size: 100% 100%;
   }
 
   /* Light Background Component */
@@ -122,9 +142,10 @@
     height: 75vh;
     margin: auto -16px;
     text-align: center;
+    padding-top: 25px;
   }
 
-  /* Divs */
+  /* About me Divs */
   .col-6-left {
     width: 50%;
     float: left;

@@ -6,7 +6,7 @@ function Home() {
     <div className="home">
     <div className="divinsidehome">
     <h1 className="hometitle">Jennifer Rosa</h1>
-    <h2 className="hometitledescription">Front End Web Developer</h2>
+    <h2 className="hometitledescription">Web Developer</h2>
     </div>
     <p className="scrolldown"><a href="#about"><FontAwesomeIcon className="chevron-circle-down" icon="chevron-circle-down" size="3x" /></a></p>
     </div>
