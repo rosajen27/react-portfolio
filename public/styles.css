@@ -29,7 +29,7 @@
 
   /* HEADER + NAVBAR */
   .navbar {
-    background-color: #eee;
+    background-color: #fff;
     margin: auto -16px;
     padding: 16px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -40,7 +40,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #eee;
+    background-color: #fff;
   }
   
   li {
@@ -157,6 +157,23 @@
     float: right;
     padding: 25px 80px 25px 10px;
   }
+
+  /* CONTACT FORM */
+  button {
+    height: 40px;
+    width: 20%;
+  }
+
+  input {
+    height: 30px;
+    padding: 10px;
+    width: 20%;
+  }
+
+  textarea {
+    padding: 10px;
+    width: 20%;
+  }
   
   /* .card {
     background: #fff;
@@ -194,8 +211,4 @@
     height: 40px;
     width: 90%;
   }
-  
-  button {
-    height: 40px;
-    width: 10%;
-  } */
+  */
