@@ -1,14 +1,22 @@
 import React from "react";
 
+import Socialmedia from "./Socialmedia"
+
 function Footer() {
 
     const currentYear = new Date().getFullYear();
 
-    return <footer>
-    <p>
-        Copyright © Jennifer Rosa {currentYear}
-    </p>
-    </footer>
+    return (
+        <div>
+            <footer>
+                <Socialmedia />
+                <br></br>
+                <p>
+                © Copyright Jennifer Rosa {currentYear}
+                </p>
+            </footer>
+        </div>
+    );
 }
 
 export default Footer;
