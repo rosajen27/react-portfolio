@@ -5,7 +5,7 @@ function About() {
         <div className="darkbg">
             <div className="row">
                 <div className="col-6-right">
-                    <img className="profile-img" src="https://github.com/rosajen27/react-portfolio/blob/master/public/profile.png?raw=true" alt="profile-img" />
+                    <img className="profile-img" src="https://github.com/rosajen27/react-portfolio/blob/master/public/profile1.png?raw=true" alt="profile-img" />
                 </div>
                 <div className="col-6-left">
                     <p className="aboutdescription">
