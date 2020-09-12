@@ -12,20 +12,8 @@
     background: #eee;
     padding: 0 16px;
   }
-  
-  .navbar {
-    background-color: #1B1B1B;
-    margin: auto -16px;
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  }
-  
-  header h1 {
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-  }
 
+  /* FOOTER */
   footer {
     text-align: center;
     color: #fff;
@@ -35,6 +23,19 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
 
+  .social-media-icon {
+    width: 50px;
+    padding-left: 10px;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    background-color: #1B1B1B;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
   ul {
     list-style-type: none;
     margin: 0;
@@ -59,10 +60,6 @@
     background-color: #111;
   }
 
-  .social-media-icon {
-    width: 50px;
-    padding-left: 10px;
-  }
 
 
 
