@@ -13,7 +13,7 @@
     padding: 0 16px;
   }
   
-  header {
+  .navbar {
     background-color: #1B1B1B;
     margin: auto -16px;
     padding: 16px 32px;
@@ -34,8 +34,40 @@
     padding: 50px 32px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1B1B1B;
+  }
   
-  .card {
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .social-media-icon {
+    width: 50px;
+    padding-left: 10px;
+  }
+
+
+
+  
+  /* .card {
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
@@ -75,9 +107,4 @@
   button {
     height: 40px;
     width: 10%;
-  }
-
-  .social-media-icon {
-    width: 50px;
-    padding-left: 10px;
-  }
+  } */

@@ -1,18 +1,17 @@
 import React from "react";
 
 function Header() {
-  return <header>
-    <nav>
+  return (
+    <div className="navbar">
       <ul id="nav" className="nav">
-        <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-        <li><a className="smoothscroll" href="#about">About</a></li>
-        <li><a className="smoothscroll" href="#resume">Resume</a></li>
-        <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
-        <li><a className="smoothscroll" href="#contact">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#home">Home</a></li>
       </ul>
-    </nav>
-
-  </header>
+    </div>
+  );
 }
 
 export default Header;
