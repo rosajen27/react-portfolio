@@ -95,20 +95,47 @@
     opacity: 50%;
   }
 
+  /* ABOUT */
+
+  .aboutdescription {
+    line-height: 40px;
+  }
+
+  .profile-img {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
   /* Dark Background Component */
   .darkbg {
     color: #fff;
     background-color: #1B1B1B;
     height: 75vh;
     margin: auto -16px;
+    text-align: center;
+    padding-top: 25px;
   }
 
   /* Light Background Component */
   .lightbg {
     height: 75vh;
     margin: auto -16px;
+    text-align: center;
   }
 
+  /* Divs */
+  .col-6-left {
+    width: 50%;
+    float: left;
+    padding: 25px 10%;
+  }
+
+  .col-6-right {
+    width: 50%;
+    float: right;
+    padding: 0 10%;
+  }
   
   /* .card {
     background: #fff;
