@@ -9,7 +9,7 @@ function About() {
                 </div>
                 <div className="col-6-left">
                     <p className="aboutdescription">
-                        <h2>About Me</h2>
+                        <h2>Hello, World!</h2>
                         <br />
                         My name is Jennifer Rosa, but most of my friends call me Jen for short. I am currently a K-6 Educator, based in Connecticut, who is transitioning out of the classroom and into the wonderful world of web development. When I am not teaching my lovely students, I am passionately creating dynamic and beautiful web pages as an ambitious Front-End Developer. 
                         <br /><br />

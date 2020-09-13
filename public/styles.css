@@ -127,6 +127,12 @@
     padding-top: 25px;
   }
 
+  /* Technologies */
+  .technologies-icon {
+    width: 200px;
+    padding: 40px;
+  }
+
   /* Dark Background Component */
   .darkbg {
     color: #fff;
@@ -151,13 +157,13 @@
   .col-6-left {
     width: 50%;
     float: left;
-    padding: 25px 10px 25px 80px;
+    padding: 25px 0px 25px 80px;
   }
 
   .col-6-right {
     width: 50%;
     float: right;
-    padding: 25px 80px 25px 10px;
+    padding: 25px 80px 25px 0px;
   }
 
   /* CONTACT FORM */
@@ -175,12 +181,6 @@
   textarea {
     padding: 10px;
     width: 20%;
-  }
-
-  /* Technologies */
-  .technologies-icon {
-    width: 200px;
-    padding: 40px;
   }
   
   /* Projects */
