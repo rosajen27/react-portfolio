@@ -112,7 +112,8 @@
     font-weight: lighter;
   }
 
-  .aboutdescription {
+  .aboutdescription,
+  .projectsdescription {
     line-height: 40px;
   }
 
