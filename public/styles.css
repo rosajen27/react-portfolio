@@ -64,7 +64,7 @@
 
   .home {
     color: #fff;
-    height: 100vh;
+    height: 900px;
     margin: auto -16px;
     background-image: url("./bluebg2.png");
     background-size: 100% 100%;
@@ -182,15 +182,17 @@
     padding: 40px;
   }
   
-  /* .card {
+  /* Projects */
+   .card {
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
     padding: 10px;
-    width: 240px;
-    min-height: 400px;
-    margin: 16px;
-    float: left;
+    width: 400px;
+    min-height: 500px;
+    margin: 25px 15px;
+    display: inline-flex;
+    flex-direction: row;
   }
   
   .card h1 {
@@ -205,6 +207,8 @@
     word-wrap: break-word;
   }
   
+
+  /*
   .circle-img {
     border-radius: 100%;
     border: 5px solid #f5ba13;
@@ -212,10 +216,4 @@
     height: 175px;
   }
   
-  input {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 40px;
-    width: 90%;
-  }
   */
