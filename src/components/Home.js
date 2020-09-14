@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Home() {
     return (
-    <div className="home">
+    <div className="home" id="home">
     <div className="divinsidehome">
     <h1 className="hometitle">Jennifer Rosa</h1>
     <h2 className="hometitledescription">Web Developer</h2>
