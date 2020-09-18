@@ -22,7 +22,7 @@ function Projects() {
                 <Col className="col-12">
                     <h2>Projects</h2>
                     <p className="projectsdescription">Here's a selection of some recent work.</p>
-                    <p>For more up to the minute work you may visit my <a href="https://github.com/rosajen27" target="_blank"><strong>GitHub</strong></a> or <a href="https://github.com/rosajen27" target="_blank"><strong>Portfolio</strong></a>.</p>
+                    <p>For more up to the minute work you may visit my <a href="https://github.com/rosajen27" target="_blank"><strong>GitHub</strong></a> or <a href="/portfolio" target="_blank"><strong>Portfolio</strong></a>.</p>
                 </Col>
             </Row>
             <Row>
