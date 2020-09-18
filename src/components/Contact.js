@@ -3,7 +3,8 @@ import { Row, Col } from "react-bootstrap";
 
 function Contact() {
     return (
-        <Row className="darkbg">
+        <div className="darkbg">
+        <Row>
             <Col className="contact" id="contact">
                 <h2>Contact</h2>
                 <p>Contact me via <a href="mailto:rosajen27@gmail.com">email</a> or fill out the form below:</p>
@@ -30,6 +31,7 @@ function Contact() {
                 </form>
             </Col>
         </Row>
+        </div>
 
     );
 }

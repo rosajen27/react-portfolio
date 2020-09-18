@@ -97,7 +97,7 @@
   /* Dark Background Component */
   .darkbg {
     color: #fff;
-
+    margin: auto -16px;
     text-align: center;
     padding: 50px;
     background-image: url("./images/gradientbg.png");
@@ -106,7 +106,7 @@
 
   /* Light Background Component */
   .lightbg {
-    margin: auto;
+    margin: auto -16px;
     padding: 50px;
     text-align: center;
   }
