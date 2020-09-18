@@ -3,16 +3,12 @@ import "react-bootstrap";
 
 function Card(props) {
     return (
-        <div className="card">
+        <div className="card col-4">
             <img src={props.projectimg} className="card-img-top" alt="project_img"></img>
             <div className="card-body">
-                <h5 className="card-title">{props.projecttitle}</h5>
-                <div className="card-body">
-                    <p>{props.projecttech}</p>
-                </div>
-                <p class="card-text">{props.prorojectdescription}</p>
-            </div>
-            <div class="card-body">
+                <h4 className="card-title">{props.projecttitle}</h4>
+                <p>{props.projecttech}</p>
+                <p class="card-text">{props.projectdescription}</p>
                 <a href={props.deployedlink}>Deployed</a>
                 <br></br>
                 <a href={props.repolink}>Repo</a>

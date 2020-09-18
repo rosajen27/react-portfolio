@@ -97,17 +97,17 @@
   /* Dark Background Component */
   .darkbg {
     color: #fff;
-    margin: auto -16px;
+
     text-align: center;
-    padding: 100px;
+    padding: 50px;
     background-image: url("./images/gradientbg.png");
     background-size: 100% 100%;
   }
 
   /* Light Background Component */
   .lightbg {
-    margin: auto -16px;
-    padding: 100px;
+    margin: auto;
+    padding: 50px;
     text-align: center;
   }
 
@@ -128,30 +128,9 @@
     width: 30%;
   }
   
-  .card {
-    width: 18rem
-  }
   /* Projects */
-   /* .card {
+   .card {
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
-    padding: 10px;
-    width: 400px;
-    min-height: 500px;
-    margin: 25px 15px;
-    display: inline-flex;
-    flex-direction: row;
   }
-  
-  .card h1 {
-    font-size: 1.5em;
-    margin-bottom: 6px;
-  }
-  
-  .card p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  } */
