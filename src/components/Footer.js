@@ -9,6 +9,8 @@ function Footer() {
     return (
         <div>
             <footer>
+            <a href="#home">Back to Top</a>
+            <br></br><br></br>
                 <Socialmedia />
                 <br></br>
                 <p>

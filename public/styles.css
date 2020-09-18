@@ -22,6 +22,11 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   }
 
+  footer a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
   .social-media-icon {
     width: 50px;
     padding-left: 10px;
