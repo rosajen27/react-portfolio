@@ -1,9 +1,11 @@
 import React from "react";
 import "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 
 function Card(props) {
     return (
-        <div className="card col-4">
+        <Container>
+        <Col className="card">
             <img src={props.projectimg} className="card-img-top" alt="project_img"></img>
             <div className="card-body">
                 <h4 className="card-title">{props.projecttitle}</h4>
@@ -13,7 +15,8 @@ function Card(props) {
                 <br></br>
                 <a href={props.repolink}>Repo</a>
             </div>
-        </div>
+            </Col>
+        </Container>
 
     );
 }
