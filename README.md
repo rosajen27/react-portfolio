@@ -13,7 +13,7 @@
 
 ## Deployment
 
-Deployed Website: 
+Deployed Website: https://rosa-portfolio.herokuapp.com/
 
 ![portfolio.png](./public/images/portfolio.PNG)
 
