@@ -30,6 +30,8 @@
     padding: 0;
     background-image: url("./images/mountainbg.png");
     background-size: cover;
+    text-align: center;
+    overflow:hidden;
   }
 
   .hometitle {
@@ -53,14 +55,6 @@
 
   .scrolldown a:hover {
     color: lightgray;
-  }
-
-  .chevron-circle-down {
-    display: block;
-    position: absolute;
-    left: 50%;
-    margin: 0 -16px;
-    bottom: 0;
   }
 
   /* ABOUT */
@@ -91,7 +85,6 @@
   /* Dark Background Component */
   .darkbg {
     color: #fff;
-    margin: auto -16px;
     text-align: center;
     padding: 50px;
     background-image: url("./images/gradientbg.png");
@@ -100,7 +93,6 @@
 
   /* Light Background Component */
   .lightbg {
-    margin: auto -16px;
     padding: 50px;
     text-align: center;
   }
@@ -127,4 +119,5 @@
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
+    text-align: left;
   }

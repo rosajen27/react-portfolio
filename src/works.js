@@ -31,7 +31,7 @@ const works = [
     projecttitle: "Weather Dashboard",
     projecttech: "",
     projectdescription: "A weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. OpenWeather API was used to retrieve weather data for cities and incorporated localStorage to store any persistent data.",
-    projectimg: "",
+    projectimg: "https://github.com/rosajen27/react-portfolio/blob/master/public/images/weather.png?raw=true",
     deployedlink: "https://rosajen27.github.io/weather-dashboard/",
     repolink: "https://github.com/rosajen27/weather-dashboard"
   },
@@ -40,7 +40,7 @@ const works = [
     projecttitle: "Work Day Scheduler",
     projecttech: "",
     projectdescription: "A simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery and Moment.js.",
-    projectimg: "",
+    projectimg: "https://github.com/rosajen27/react-portfolio/blob/master/public/images/scheduler.png?raw=true",
     deployedlink: "https://rosajen27.github.io/work-day-scheduler/",
     repolink: "https://github.com/rosajen27/work-day-scheduler"
   },
@@ -49,7 +49,7 @@ const works = [
     projecttitle: "Eat Da Burger",
     projecttech: "",
     projectdescription: "Eat-Da-Burger! is a full-stack restaurant app that lets users input the names of burgers they'd like to eat.",
-    projectimg: "",
+    projectimg: "https://github.com/rosajen27/react-portfolio/blob/master/public/images/burger.png?raw=true",
     deployedlink: "https://rosa-burger.herokuapp.com/",
     repolink: "https://github.com/rosajen27/burger"
   }
