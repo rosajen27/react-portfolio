@@ -71,6 +71,10 @@
   .projectsdescription {
     line-height: 40px;
   }
+  
+  .aboutdescription p {
+    align-text: left;
+  }
 
   .profile-img {
     border: 3px solid #fff;
