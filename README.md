@@ -1,5 +1,5 @@
-# Portfolio
-
+# React Portfolio
+My personal portfolio built with React.
 
 ## Table of Contents
 * [Deployment](#deployment)
