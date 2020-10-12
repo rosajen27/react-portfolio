@@ -4,9 +4,11 @@ import { Row, Col } from "react-bootstrap";
 function Technologies() {
     return (
         <div className="darkbg technologies" id="technologies">
-            <Col>
-                <h2>Technologies</h2>
-            </Col>
+            <Row>
+                <Col>
+                    <h2>Technologies</h2>
+                </Col>
+            </Row>
 
             <Row>
                 <Col className="col-sm-12">
