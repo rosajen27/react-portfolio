@@ -10,10 +10,10 @@ function Home() {
         <div id="home" className="col-12 mx-auto">
             <Row>
                 <Col>
-                    <h1 className="hometitle">Jennifer Rosa</h1>
-                    <h2 className="hometitledescription">Web Developer</h2>
+                    <h1 className="hometitle animation">Jennifer Rosa</h1>
+                    <h2 className="hometitledescription animation">Web Developer</h2>
                     <br></br><br></br><br></br>
-                    <p className="scrolldown"><a href="#about"><FontAwesomeIcon className="chevron-circle-down" icon="chevron-circle-down" size="3x" /></a></p>
+                    <p className="scrolldown animation"><a href="#about"><FontAwesomeIcon className="chevron-circle-down" icon="chevron-circle-down" size="3x" /></a></p>
                 </Col>
             </Row>
         </div>

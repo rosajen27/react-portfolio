@@ -16,6 +16,21 @@
   height: auto;
 }
 
+/* media queries*/
+.animation {
+  opacity: 100;
+  animation: opacity 5s;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
 /* Div Backgrounds */
 .darkbg {
   color: #fff;
@@ -145,5 +160,10 @@ footer {
 
 .technologies-icon {
   width: 200px;
+  padding: 40px;
+}
+
+.technologies-icon:hover {
+  width: 220px;
   padding: 40px;
 }
