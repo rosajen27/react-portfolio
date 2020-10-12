@@ -1,12 +1,12 @@
 const works = [
   {
     id: 1,
-    projecttitle: "iNews",
+    projecttitle: "Daily News",
     projecttech: "",
-    projectdescription: "Coming Soon: Web application to find news articles. When the user goes to the front page they are presented with top news articles and search fields to find articles they are looking for.",
-    projectimg: "https://raw.githubusercontent.com/rosajen27/react-portfolio/master/public/images/comingsoon.png",
-    deployedlink: "",
-    repolink: "https://github.com/tkim30201/Project-Three"
+    projectdescription: "News Web application, created with MERN, that allows the user to search, read, and save news articles.",
+    projectimg: "https://raw.githubusercontent.com/rosajen27/react-portfolio/master/public/images/news.png",
+    deployedlink: "#",
+    repolink: "https://github.com/rosajen27/news-app/"
   },
   {
     id: 2,

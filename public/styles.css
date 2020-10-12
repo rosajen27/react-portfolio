@@ -8,6 +8,11 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Dark Background Component */
 .darkbg {
   color: #fff;
@@ -24,14 +29,9 @@ body {
 }
 
 /* Nav Bar */
-
-.navbar {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .nav-item {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* HOME SECTION */
@@ -71,7 +71,6 @@ body {
 }
 
 /* ABOUT */
-
 #about {
   padding-left: 10%;
   padding-right: 10%;
@@ -112,23 +111,29 @@ body {
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   text-align: left;
+  min-height: 700px;
+  margin-bottom: 25px;
+}
+
+.card p {
+  font-size: .8rem;
 }
 
 /* CONTACT FORM */
 button {
   height: 40px;
-  width: 30%;
+  width: 50%;
 }
 
 input {
   height: 30px;
   padding: 20px;
-  width: 30%;
+  width: 50%;
 }
 
 textarea {
   padding: 20px;
-  width: 30%;
+  width: 50%;
 }
 
 /* FOOTER */

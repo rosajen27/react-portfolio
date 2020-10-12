@@ -19,7 +19,7 @@ function Projects() {
     return (
         <div className="lightbg projects" id="portfolio">
             <Row>
-                <Col className="col-12">
+                <Col>
                     <h2>Projects</h2>
                     <p className="projectsdescription">Here's a selection of some recent work.</p>
                     <p>For more up to the minute work you may visit my <a href="https://github.com/rosajen27" target="_blank"><strong>GitHub</strong></a>.</p>
