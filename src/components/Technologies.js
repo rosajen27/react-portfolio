@@ -15,7 +15,6 @@ function Technologies() {
                     <img className="technologies-icon" src="https://rosajen27.github.io/public/icons/html.svg" alt="html"></img>
                     <img className="technologies-icon" src="https://rosajen27.github.io/public/icons/css.svg" alt="css"></img>
                     <img className="technologies-icon" src="https://rosajen27.github.io/public/icons/javascript.svg" alt="javascript"></img>
-                    <img className="technologies-icon" src="https://rosajen27.github.io/public/icons/bootstrap.png" alt="bootstrap"></img>
                     <br></br>
                     <img className="technologies-icon" src="https://rosajen27.github.io/public/icons/mongodb.png" alt="mongo-db"></img>
                     <img className="technologies-icon" src="https://rosajen27.github.io/public/icons/react.svg" alt="react"></img>
