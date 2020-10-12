@@ -1,5 +1,6 @@
 # React Portfolio
 My personal portfolio built with React.
+TO DO: Make website responsive
 
 ## Table of Contents
 * [Deployment](#deployment)
