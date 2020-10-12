@@ -1,5 +1,5 @@
 # React Portfolio
-My personal portfolio created with React.js
+Jennifer Rosa's Professional Portfolio created with React.js
 
 ## Table of Contents
 * [Deployment](#deployment)
