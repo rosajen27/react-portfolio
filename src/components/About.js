@@ -5,7 +5,7 @@ import { Row, Col } from "react-bootstrap";
 function About() {
     return (
             <Row className="lightbg container-fluid" id="about">
-                <Col className="mx-auto">
+                <Col className="mx-auto col-md-12 col-lg-6">
                     <p className="aboutdescription">
                         <h2>Hello, World!</h2>
                         <br />
@@ -15,7 +15,7 @@ function About() {
                         When I'm not online, I enjoy spending time outdoors, playing video games, powerlifting, and watching an irresponsible amount of Netflix.
                     </p>
                 </Col>
-                <Col className="mx-auto container-fluid">
+                <Col className="mx-auto container-fluid col-md-12 col-lg-6">
                     <img className="profile-img" src="https://github.com/rosajen27/react-portfolio/blob/master/public/images/mountain-profile3.png?raw=true" alt="profile-img" />
                 </Col>
             </Row>

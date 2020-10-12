@@ -1,131 +1,145 @@
 html {
   scroll-behavior: smooth;
+  font-size: 1.25rem;
 }
 
-  body {
-    background: #eee;
-    font-family: 'Raleway', sans-serif;
-  }
+body {
+  background: #eee;
+  font-family: "Raleway", sans-serif;
+}
 
-  /* FOOTER */
-  footer {
-    text-align: center;
-    background-color: #eee;
-    padding: 50px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  }
+/* Dark Background Component */
+.darkbg {
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  background-image: url("./images/gradientbg.png");
+  background-size: cover;
+}
 
-  footer a {
-    text-decoration: none;
-    font-weight: bold;
-  }
+/* Light Background Component */
+.lightbg {
+  padding: 50px;
+  text-align: center;
+}
 
-  .social-media-icon {
-    width: 50px;
-    padding-left: 10px;
-  }
+/* Nav Bar */
 
-  /* HOME SECTION */
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  #home {
-    color: #fff;
-    text-shadow: 2px 2px 5px #1B1B1B;
-    height: 100vh;
-    padding: 0;
-    background-image: url("./images/mountainbg.png");
-    background-size: cover;
-    text-align: center;
-    overflow:hidden;
-  }
+.nav-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-  .hometitle {
-    font-size: 10rem;
-    text-align: center;
-    padding-top: 300px;
-    font-family: 'Dancing Script', cursive;
-    font-weight: lighter;
-  }
+/* HOME SECTION */
+#home {
+  color: #fff;
+  text-shadow: 2px 2px 5px #1b1b1b;
+  height: 100vh;
+  padding: 0;
+  background-image: url("./images/mountainbg.png");
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
 
-  .hometitledescription {
-    text-align: center;
-    font-size: 2rem;
-    padding: 40px 0;
-    font-weight: lighter;
-  }
+.hometitle {
+  font-size: 10rem;
+  text-align: center;
+  padding-top: 300px;
+  font-family: "Dancing Script", cursive;
+  font-weight: lighter;
+}
 
-  .scrolldown a {
-    color: #fff;
-  }
+.hometitledescription {
+  text-align: center;
+  font-size: 2rem;
+  padding: 40px 0;
+  font-weight: lighter;
+}
 
-  .scrolldown a:hover {
-    color: lightgray;
-  }
+.scrolldown a {
+  color: lightgray;
+  font-size: .75rem;
+}
 
-  /* ABOUT */
-  .aboutdescription h2,
-  .technologies h2,
-  .projects h2,
-  .contact h2 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 4rem;
-    font-weight: lighter;
-  }
+.scrolldown a:hover {
+  color: #fff;
+}
 
-  .aboutdescription,
-  .projectsdescription {
-    line-height: 40px;
-  }
-  
-  .aboutdescription p {
-    text-align: left;
-  }
+/* ABOUT */
 
-  .profile-img {
-    border: 3px solid #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+#about {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
-  .technologies-icon {
-    width: 200px;
-    padding: 40px;
-  }
+.aboutdescription h2,
+.technologies h2,
+.projects h2,
+.contact h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 5rem;
+  font-weight: lighter;
+  text-shadow: 2px 2px 5px #1b1b1b;
+}
 
-  /* Dark Background Component */
-  .darkbg {
-    color: #fff;
-    text-align: center;
-    padding: 50px;
-    background-image: url("./images/gradientbg.png");
-    background-size: cover;
-  }
+.aboutdescription,
+.projectsdescription {
+  line-height: 40px;
+}
 
-  /* Light Background Component */
-  .lightbg {
-    padding: 50px;
-    text-align: center;
-  }
+.aboutdescription p {
+  text-align: left;
+}
 
-  /* CONTACT FORM */
-  button {
-    height: 40px;
-    width: 30%;
-  }
+.profile-img {
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  input {
-    height: 30px;
-    padding: 20px;
-    width: 30%;
-  }
+.technologies-icon {
+  width: 200px;
+  padding: 40px;
+}
 
-  textarea {
-    padding: 20px;
-    width: 30%;
-  }
-  
-  /* Projects */
-   .card {
-    background: #fff;
-    border-radius: 7px;
-    box-shadow: 0 2px 5px #ccc;
-    text-align: left;
-  }
+/* Projects */
+.card {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+}
+
+/* CONTACT FORM */
+button {
+  height: 40px;
+  width: 30%;
+}
+
+input {
+  height: 30px;
+  padding: 20px;
+  width: 30%;
+}
+
+textarea {
+  padding: 20px;
+  width: 30%;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 50px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.social-media-icon {
+  width: 50px;
+  padding-left: 10px;
+}

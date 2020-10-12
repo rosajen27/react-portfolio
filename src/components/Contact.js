@@ -6,8 +6,9 @@ function Contact() {
         <div className="darkbg">
         <Row>
             <Col className="contact" id="contact">
-                <h2>Contact</h2>
-                <p>Contact me via <a href="mailto:rosajen27@gmail.com">email</a> or fill out the form below:</p>
+                <h2>Let's Connect</h2>
+                <p>Email: <b><a href="mailto:rosajen27@gmail.com">Rosajen27@gmail.com</a></b>
+                <br></br>or you may fill out the form below:</p>
                 <br></br>
 
 
