@@ -13,7 +13,7 @@ const works = [
     projecttitle: "TripReel",
     projecttech: "",
     projectdescription: "A mobile movie app that features dynamically updated HTML, CSS, and JavaScript while integrating data received from multiple server-side API requests.",
-    projectimg: "https://github.com/rosajen27/react-portfolio/blob/master/public/images/tripreel.png?raw=true",
+    projectimg: "https://github.com/rosajen27/rosajen27.github.io/blob/master/public/images/tripreels.png?raw=true",
     deployedlink: "https://rosajen27.github.io/trip-reel/",
     repolink: "https://github.com/rosajen27/trip-reel"
   },
