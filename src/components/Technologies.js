@@ -5,7 +5,7 @@ function Technologies() {
     return (
         <div className="darkbg technologies" id="technologies">
             <Row>
-                <Col>
+                <Col className="col-12">
                     <h2>Technologies</h2>
                 </Col>
             </Row>

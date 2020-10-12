@@ -38,12 +38,11 @@ body {
 #home {
   color: #fff;
   text-shadow: 2px 2px 5px #1b1b1b;
-  height: 100vh;
+  height: 100%;
   padding: 0;
   background-image: url("./images/mountainbg.png");
   background-size: cover;
   text-align: center;
-  overflow: hidden;
 }
 
 .hometitle {
