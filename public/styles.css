@@ -42,6 +42,7 @@ body {
   color: #fff;
   text-shadow: 2px 2px 5px #1b1b1b;
   height: 100%;
+  width: 100vw;
   background-image: url("./images/mountainbg.png");
   background-size: cover;
   text-align: center;
