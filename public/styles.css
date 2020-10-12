@@ -1,6 +1,5 @@
 * {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
   scroll-behavior: smooth;
 }
 
@@ -65,21 +64,20 @@
 }
 
 .hometitle {
-  font-size: 15vw;
+  font-size: 10rem;
   padding-top: 15%;
   font-family: "Dancing Script", cursive;
   font-weight: lighter;
 }
 
 .hometitledescription {
-  font-size: 32px;
+  font-size: 2rem;
   padding: 40px 0;
   font-weight: lighter;
 }
 
 .scrolldown a {
   color: lightgray;
-  font-size: 16px;
 }
 
 .scrolldown a:hover {
@@ -102,7 +100,7 @@
 .projects h2,
 .contact h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 7vw;
+  font-size: 4rem;
   text-shadow: 2px 2px 5px #1b1b1b;
 }
 
