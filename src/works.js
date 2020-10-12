@@ -4,7 +4,7 @@ const works = [
     projecttitle: "Daily News",
     projecttech: "",
     projectdescription: "News Web application, created with MERN, that allows the user to search, read, and save news articles.",
-    projectimg: "https://raw.githubusercontent.com/rosajen27/react-portfolio/master/public/images/news.png",
+    projectimg: "https://github.com/rosajen27/rosajen27.github.io/blob/master/public/images/news.png?raw=true",
     deployedlink: "#",
     repolink: "https://github.com/rosajen27/news-app/"
   },
