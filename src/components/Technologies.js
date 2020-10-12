@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 function Technologies() {
     return (
-        <div className="darkbg technologies" id="technologies">
+        <div className="darkbg technologies container-fluid" id="technologies">
             <Row>
                 <Col className="col-12">
                     <h2>Technologies</h2>
@@ -19,6 +19,7 @@ function Technologies() {
                     <img className="technologies-icon" src="https://github.com/rosajen27/react-portfolio/blob/master/public/icons/mongodb.png?raw=true" alt="mongo-db"></img>
                     <img className="technologies-icon" src="https://raw.githubusercontent.com/rosajen27/react-portfolio/ff768ce7434ecb8848eb7cf123f0dd8f110f0127/public/icons/react.svg" alt="react"></img>
                     <img className="technologies-icon" src="https://raw.githubusercontent.com/rosajen27/react-portfolio/ff768ce7434ecb8848eb7cf123f0dd8f110f0127/public/icons/nodejs.svg" alt="node-and-express"></img>
+                    <br></br><br></br>
                 </Col>
             </Row>
         </div>

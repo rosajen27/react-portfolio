@@ -9,7 +9,10 @@ function Contact() {
                     <h2>Let's Connect</h2>
                     <p>Email: <b><a href="mailto:rosajen27@gmail.com">Rosajen27@gmail.com</a></b>
                         <br></br>or you may fill out the form below:</p>
-
+                        </Col>
+            </Row>
+            <Row>
+            <Col>
                     <form action="mailto:rosajen27@gmail.com" method="post" enctype="text/plain">
                         <label for="Name"></label>
                         <input pattern="[A-Z,a-z, ]*" type="text" name="name" id="Name" placeholder="Name"></input>
@@ -26,6 +29,7 @@ function Contact() {
                         <br></br><br></br>
 
                         <p><button type="submit" className="btn btn-info">Submit</button></p>
+                        <br></br><br></br>
                     </form>
                 </Col>
             </Row>

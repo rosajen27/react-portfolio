@@ -7,9 +7,9 @@ import { Row, Col } from "react-bootstrap";
 function Home() {
     return (
 
-        <div id="home">
+        <div id="home" className="col-12 mx-auto">
             <Row>
-                <Col className="col-12">
+                <Col>
                     <h1 className="hometitle">Jennifer Rosa</h1>
                     <h2 className="hometitledescription">Web Developer</h2>
                     <br></br><br></br><br></br>

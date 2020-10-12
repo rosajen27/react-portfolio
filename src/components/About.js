@@ -12,7 +12,7 @@ function About() {
             </Row>
 
             <Row>
-                <Col className="mx-auto container-fluid col-12 col-md-12 col-lg-6">
+                <Col className="container-fluid col-12 col-md-12 col-lg-6">
                     <p className="aboutdescription">
                         I'm Jen, an elementary school teacher, based in Connecticut, who is transitioning out of the classroom and into the world of Web Development.<br></br><br></br>
                         When I am not teaching my lovely students, I am passionately creating dynamic and beautiful web pages and web apps.<br></br><br></br>
@@ -21,7 +21,7 @@ function About() {
                     </p>
                 </Col>
 
-                <Col className="mx-auto container-fluid col-12 col-md-12 col-lg-6">
+                <Col className="container-fluid col-12 col-md-12 col-lg-6">
                     <img className="profile-img responsive" src="https://github.com/rosajen27/react-portfolio/blob/master/public/images/mountain-profile3.png?raw=true" alt="profile-img" />
                 </Col>
             </Row>
