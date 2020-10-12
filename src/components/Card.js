@@ -5,7 +5,7 @@ import { Col } from "react-bootstrap";
 function Card(props) {
     return (
 
-        <Col className="col-lg-4 col-md-6 col-sm-12 col-12">
+        <Col className="col-lg-4 col-12">
             <div class="card">
                 <img src={props.projectimg} className="card-img-top" alt="project_img"></img>
                 <div className="card-body">

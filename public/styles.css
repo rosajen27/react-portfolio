@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  font-size: 1.25rem;
+  font-size: 1.25vw;
 }
 
 body {
@@ -46,7 +46,7 @@ body {
 }
 
 .hometitle {
-  font-size: 10rem;
+  font-size: 10vw;
   text-align: center;
   padding-top: 300px;
   font-family: "Dancing Script", cursive;
@@ -55,14 +55,14 @@ body {
 
 .hometitledescription {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2vw;
   padding: 40px 0;
   font-weight: lighter;
 }
 
 .scrolldown a {
   color: lightgray;
-  font-size: .75rem;
+  font-size: 0.75vw;
 }
 
 .scrolldown a:hover {
@@ -80,7 +80,7 @@ body {
 .projects h2,
 .contact h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 5rem;
+  font-size: 5vw;
   font-weight: lighter;
   text-shadow: 2px 2px 5px #1b1b1b;
 }
@@ -110,12 +110,7 @@ body {
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   text-align: left;
-  min-height: 700px;
   margin-bottom: 25px;
-}
-
-.card p {
-  font-size: .8rem;
 }
 
 /* CONTACT FORM */
