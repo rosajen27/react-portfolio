@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
-  font-size: 1.25vw;
+}
+
+p,
+a {
+  font-size: 24px;
 }
 
 body {
@@ -44,7 +48,7 @@ body {
 }
 
 .hometitle {
-  font-size: 10vw;
+  font-size: 200px;
   text-align: center;
   padding-top: 15%;
   font-family: "Dancing Script", cursive;
@@ -53,14 +57,14 @@ body {
 
 .hometitledescription {
   text-align: center;
-  font-size: 2vw;
+  font-size: 32px;
   padding: 40px 0;
   font-weight: lighter;
 }
 
 .scrolldown a {
   color: lightgray;
-  font-size: 0.75vw;
+  font-size: 16px;
 }
 
 .scrolldown a:hover {
@@ -78,7 +82,7 @@ body {
 .projects h2,
 .contact h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 7vw;
+  font-size: 100px;
   text-shadow: 2px 2px 5px #1b1b1b;
 }
 
