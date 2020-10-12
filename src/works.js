@@ -5,7 +5,7 @@ const works = [
     projecttech: "",
     projectdescription: "News Web application, created with MERN, that allows the user to search, read, and save news articles.",
     projectimg: "https://github.com/rosajen27/rosajen27.github.io/blob/master/public/images/news.png?raw=true",
-    deployedlink: "#",
+    deployedlink: "#projects",
     repolink: "https://github.com/rosajen27/news-app/"
   },
   {

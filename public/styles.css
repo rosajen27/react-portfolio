@@ -13,18 +13,17 @@ body {
   height: auto;
 }
 
-/* Dark Background Component */
+/* Div Backgrounds */
 .darkbg {
   color: #fff;
-  text-align: center;
-  padding: 50px;
   background-image: url("./images/gradientbg.png");
   background-size: cover;
 }
 
-/* Light Background Component */
-.lightbg {
-  padding: 50px;
+.lightbg,
+.darkbg {
+  padding-top: 50px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -39,7 +38,6 @@ body {
   color: #fff;
   text-shadow: 2px 2px 5px #1b1b1b;
   height: 100%;
-  padding: 0;
   background-image: url("./images/mountainbg.png");
   background-size: cover;
   text-align: center;
@@ -48,7 +46,7 @@ body {
 .hometitle {
   font-size: 10vw;
   text-align: center;
-  padding-top: 300px;
+  padding-top: 15%;
   font-family: "Dancing Script", cursive;
   font-weight: lighter;
 }
@@ -75,13 +73,12 @@ body {
   padding-right: 10%;
 }
 
-.aboutdescription h2,
+#about h2,
 .technologies h2,
 .projects h2,
 .contact h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 5vw;
-  font-weight: lighter;
+  font-size: 7vw;
   text-shadow: 2px 2px 5px #1b1b1b;
 }
 
@@ -90,7 +87,7 @@ body {
   line-height: 40px;
 }
 
-.aboutdescription p {
+#about p {
   text-align: left;
 }
 
@@ -113,21 +110,29 @@ body {
   margin-bottom: 25px;
 }
 
+.card-row {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0;
+}
+
 /* CONTACT FORM */
 button {
-  height: 40px;
-  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 input {
-  height: 30px;
   padding: 20px;
   width: 50%;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 textarea {
   padding: 20px;
   width: 50%;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* FOOTER */
