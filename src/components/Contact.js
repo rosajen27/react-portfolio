@@ -7,7 +7,8 @@ function Contact() {
             <Row>
                 <Col className="contact" id="contact">
                     <h2>Let's Connect</h2>
-                    <p><a href="mailto:rosajen27@gmail.com"> Rosajen27@gmail.com </a> |
+                    <p><a href="mailto:rosajen27@gmail.com"> Rosajen27@gmail.com </a>
+                        <br></br>
                         <a href="https://www.linkedin.com/in/rosajen27/"> LinkedIn </a> |
                         <a href="https://github.com/rosajen27"> GitHub </a>
                         <br></br>
