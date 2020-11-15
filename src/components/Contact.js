@@ -7,12 +7,15 @@ function Contact() {
             <Row>
                 <Col className="contact" id="contact">
                     <h2>Let's Connect</h2>
-                    <p>Email: <b><a href="mailto:rosajen27@gmail.com">Rosajen27@gmail.com</a></b>
-                        <br></br>or you may fill out the form below:</p>
-                        </Col>
+                    <p><a href="mailto:rosajen27@gmail.com">Rosajen27@gmail.com</a> |
+                        <a href="https://www.linkedin.com/in/rosajen27/">LinkedIn</a> |
+                        <a href="https://github.com/rosajen27">GitHub</a>
+                        <br></br>
+                        or you may fill out the form below:</p>
+                </Col>
             </Row>
             <Row>
-            <Col>
+                <Col>
                     <form action="mailto:rosajen27@gmail.com" method="post" enctype="text/plain">
                         <label for="Name"></label>
                         <input pattern="[A-Z,a-z, ]*" type="text" name="name" id="Name" placeholder="Name"></input>
@@ -22,7 +25,7 @@ function Contact() {
                         <br></br>
                         <input type="text" name="mail" id="Email" placeholder="Email"></input>
                         <br></br>
-                        
+
                         <label for="Message"></label>
                         <br></br>
                         <textarea rows="5" name="message" placeholder="Message"></textarea>
