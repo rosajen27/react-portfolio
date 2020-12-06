@@ -1,5 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
 
 
 function About() {
@@ -12,7 +14,7 @@ function About() {
                     <br></br>
                 </Col>
                 <Col className="col-12 col-lg-6">
-                    <img class="about-img" alt="about-img" src="https://raw.githubusercontent.com/rosajen27/rosajen27.github.io/master/public/images/Headshot1.JPG"></img>
+                    <img class="about-img" alt="about-img" src="https://raw.githubusercontent.com/rosajen27/rosajen27.github.io/master/public/images/about.png"></img>
                     <br></br><br></br>
                 </Col>
 
@@ -26,6 +28,11 @@ function About() {
                         <br></br><br></br>
                         When I'm not online, I enjoy spending time outdoors, playing video games, powerlifting, and watching an irresponsible amount of Netflix.
                     </p>
+                    <br></br>
+                    <form action="https://rosajen27.github.io/public/JENROSA.pdf">
+                    <button type="submit" class="btn btn-info btn-lg" ><FontAwesomeIcon icon={faFile} /> Resume</button>
+                    </form>
+
                 </Col>
             </Row>
 

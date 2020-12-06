@@ -13,7 +13,9 @@ function Contact() {
                     <h2>Let's Connect</h2>
                     <p>Feel free to reach out if you have questions, think we could work together, or simply would like to connect!</p>
                     <br></br>
-                    <button type="button" class="btn btn-info btn-lg"><FontAwesomeIcon icon={faEnvelope} /> rosajen27@gmail.com</button>
+                    <form action="mailto:rosajen27@gmail.com">
+                    <button type="submit" class="btn btn-info btn-lg" ><FontAwesomeIcon icon={faEnvelope} /> rosajen27@gmail.com</button>
+                    </form>
                 </Col>
             </Row>
         </div>
