@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 function Technologies() {
     return (
-        <div className="darkbg technologies container-fluid" id="technologies">
+        <div className="dark bg technologies container-fluid" id="technologies">
             <Row>
                 <Col className="col-12">
                     <h2>Technologies</h2>

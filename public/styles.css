@@ -31,18 +31,31 @@
 }
 
 /* Div Backgrounds */
-.darkbg {
+.dark {
   color: #fff;
-  background-image: url("./images/gradientbg.png");
-  background-size: cover;
+  background: rgba(56, 36, 123, 1);
+  background: -webkit-linear-gradient(
+    top left,
+    rgba(56, 36, 123, 1),
+    rgba(31, 173, 235, 1)
+  );
+  background: -moz-linear-gradient(
+    top left,
+    rgba(56, 36, 123, 1),
+    rgba(31, 173, 235, 1)
+  );
+  background: linear-gradient(
+    to bottom right,
+    rgba(56, 36, 123, 1),
+    rgba(31, 173, 235, 1)
+  );
 }
 
-.lightbg {
+.light {
   background-color: #eee;
 }
 
-.darkbg,
-.lightbg {
+.bg {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -59,14 +72,14 @@
 }
 
 .hometitle {
-  font-size: 10vw;
+  font-size: 10rem;
   padding-top: 15%;
   font-family: "Dancing Script", cursive;
   font-weight: lighter;
 }
 
 .hometitledescription {
-  font-size: 2vw;
+  font-size: 4rem;
   padding: 40px 0;
   font-weight: lighter;
 }
@@ -94,7 +107,6 @@
 .technologies h2,
 .projects h2,
 .contact h2 {
-  font-family: "Dancing Script", cursive;
   font-size: 4rem;
   text-shadow: 2px 2px 5px #1b1b1b;
 }

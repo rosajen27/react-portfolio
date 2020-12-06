@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 function Contact() {
     return (
-        <div className="darkbg">
+        <div className="dark bg">
             <Row>
                 <Col className="contact" id="contact">
                     <h2>Let's Connect</h2>

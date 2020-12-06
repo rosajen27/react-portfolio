@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 
 function About() {
     return (
-        <div className="lightbg container-fluid" id="about">
+        <div className="light bg container-fluid" id="about">
             <Row>
                 <Col className="container-fluid col-12 col-md-12 col-lg-6">
                 <br></br><br></br>
