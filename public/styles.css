@@ -82,6 +82,7 @@ body h2 {
 
 .about-img {
   width: 75%;
+  border-radius: 100%;
 }
 
 .card {

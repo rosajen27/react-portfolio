@@ -12,7 +12,7 @@ function About() {
                     <br></br>
                 </Col>
                 <Col className="col-12 col-lg-6">
-                    <img class="about-img" alt="about-img" src=""></img>
+                    <img class="about-img" alt="about-img" src="https://raw.githubusercontent.com/rosajen27/rosajen27.github.io/master/public/images/Headshot1.JPG"></img>
                     <br></br><br></br>
                 </Col>
 
