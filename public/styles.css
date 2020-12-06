@@ -23,6 +23,11 @@ body h2 {
   font-weight: bold;
 }
 
+#navigation {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
 .home-title {
   font-size: 10rem;
   font-family: "Dancing Script", cursive;
@@ -40,7 +45,7 @@ body h2 {
   background-image: url("./images/mountain.jpg");
   background-size: cover;
   text-align: center;
-  min-width: fit-content;
+  width: 100vw;
   height: 100vh;
   text-shadow: 2px 2px 5px #1b1b1b;
 }
