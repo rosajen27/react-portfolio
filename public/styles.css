@@ -29,10 +29,14 @@ body h2 {
 }
 
 .home-title {
-  font-size: 10rem;
+  font-size: 10vw;
   font-family: "Dancing Script", cursive;
   padding-top: 15%;
   padding-bottom: 10px;
+}
+
+#home h2 {
+  font-size: 3vw;
 }
 
 .animation {
@@ -47,6 +51,7 @@ body h2 {
   text-align: center;
   width: 100vw;
   height: 100vh;
+  min-height: fit-content;
   text-shadow: 2px 2px 5px #1b1b1b;
 }
 
