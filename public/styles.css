@@ -1,48 +1,50 @@
-* {
+body {
   font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
+  background-color: #fff;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+body h2 {
+  font-size: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.half-col {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 .home-title {
   font-size: 10rem;
   font-family: "Dancing Script", cursive;
-  text-shadow: 2px 2px 5px #1b1b1b;
   padding-top: 15%;
   padding-bottom: 2%;
 }
 
+.home-title,
 #home h2 {
-  font-weight: bolder;
-  font-size: 2rem;
   text-shadow: 2px 2px 5px #1b1b1b;
 }
 
-a {
-  font-weight: bolder;
-}
-
-/* Div Backgrounds */
-.dark {
-  color: #fff;
-  background: linear-gradient(to right, rgba(0, 94, 115, 0.9), rgba(195, 132, 233, 0.9)), url('./images/texture.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.light {
-  background-color: #fff;
-}
-
-.bg {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 100vw;
-}
-
-/* HOME/HERO */
 #home {
   color: #fff;
   background-image: url("./images/mountain.jpg");
@@ -52,7 +54,6 @@ a {
   height: 100vh;
 }
 
-
 .down-arrow a {
   color: lightgray;
 }
@@ -61,7 +62,22 @@ a {
   color: #fff;
 }
 
-/* ABOUT */
+.bg {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100vw;
+}
+
+.dark {
+  color: #fff;
+  background: linear-gradient(to right, rgba(0, 94, 115, 0.9), rgba(195, 132, 233, 0.9)), url('./images/texture.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #about {
   padding-left: 10%;
   padding-right: 10%;
@@ -71,7 +87,10 @@ a {
   text-align: left;
 }
 
-/* PROJECTS */
+.about-img {
+  width: 50%;
+}
+
 .card {
   background: #fff;
   border-radius: 7px;
@@ -86,48 +105,16 @@ a {
   margin: 0;
 }
 
-/* FOOTER */
 footer {
   text-align: center;
   background-color: #eee;
   padding: 50px 32px;
 }
 
-/* IMGS and ICONS */
-.social-media-icon {
-  width: 60px;
-  padding: 10px;
+.social-icons {
+  padding: 5px;
 }
 
-.profile-img {
-  border: 3px solid #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.technologies-icon {
-  width: 200px;
-  padding: 40px;
-}
-
-.technologies-icon:hover {
-  width: 220px;
-  padding: 40px;
-}
-
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-
-/* media queries*/
 .animation {
   opacity: 100;
   animation: opacity 5s;
@@ -142,11 +129,42 @@ footer {
   }
 }
 
-.half-col {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+.react-icon {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
 }

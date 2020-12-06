@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 
 function About() {
     return (
-        <div className="light bg container-fluid" id="about">
+        <div className="bg container-fluid" id="about">
             <Row>
                 <Col className="col-12">
 
@@ -13,10 +13,6 @@ function About() {
                 </Col>
             </Row>
             <Row>
-                <Col className="half-col">
-                    <img src="../../../public/images/jennifer-img.png"></img>
-                </Col>
-
                 <Col className="half-col">
                     <p className="aboutdescription">
                         Hello, World! My name is Jennifer Rosa and I am an elementary school teacher, based in Connecticut, who is transitioning out of the classroom and into the world of Web Development.
@@ -27,6 +23,10 @@ function About() {
                         <br></br><br></br>
                         When I'm not online, I enjoy spending time outdoors, playing video games, powerlifting, and watching an irresponsible amount of Netflix.
                     </p>
+                </Col>
+                
+                <Col className="half-col">
+                    <img class="about-img" alt="about-img" src="https://raw.githubusercontent.com/rosajen27/rosajen27.github.io/master/public/images/jennifer-img.png"></img>
                 </Col>
             </Row>
         </div>

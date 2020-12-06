@@ -17,12 +17,12 @@ function createCard(projectDetails) {
 
 function Projects() {
     return (
-        <div className="light bg projects" id="portfolio">
+        <div className="bg" id="portfolio">
             <Row>
                 <Col className="col-12">
                     <h2>Projects</h2>
                     <p className="projectsdescription">Here's a selection of some recent work.</p>
-                    <p>For more up to the minute work you may visit my <a href="https://github.com/rosajen27" target="_blank"><strong>GitHub</strong></a>.</p>
+                    <p>For more up to the minute work you may visit my <a href="https://github.com/rosajen27"><strong>GitHub</strong></a>.</p>
                 </Col>
             </Row>
             <Row className="card-row">
