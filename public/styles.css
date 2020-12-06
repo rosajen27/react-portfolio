@@ -1,48 +1,38 @@
-body {
+* {
   font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
-  background-color: #fff;
 }
 
 body a:hover {
   text-decoration: none;
 }
 
+body p,
+body a {
+  font-size: 18px;
+}
+
+.dark h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #1b1b1b;
+}
+
 body h2 {
   font-size: 3rem;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.half-col {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
+  font-weight: bold;
 }
 
 .home-title {
   font-size: 10rem;
   font-family: "Dancing Script", cursive;
   padding-top: 15%;
-  padding-bottom: 2%;
+  padding-bottom: 10px;
 }
 
-.home-title,
-#home h2 {
-  text-shadow: 2px 2px 5px #1b1b1b;
+.animation {
+  opacity: 100;
+  animation: opacity 5s;
 }
 
 #home {
@@ -52,6 +42,7 @@ body h2 {
   text-align: center;
   min-width: fit-content;
   height: 100vh;
+  text-shadow: 2px 2px 5px #1b1b1b;
 }
 
 .down-arrow a {
@@ -76,6 +67,8 @@ body h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
+  min-height: 500px;
 }
 
 #about {
@@ -88,7 +81,7 @@ body h2 {
 }
 
 .about-img {
-  width: 50%;
+  width: 75%;
 }
 
 .card {
@@ -99,13 +92,15 @@ body h2 {
   margin-bottom: 25px;
 }
 
-.card-row {
-  padding-left: 5%;
-  padding-right: 5%;
-  margin: 0;
+.contact.col {
+  padding: 0px;
 }
 
-footer {
+.contact {
+  margin: auto;
+}
+
+#footer {
   text-align: center;
   background-color: #eee;
   padding: 50px 32px;
@@ -113,11 +108,6 @@ footer {
 
 .social-icons {
   padding: 5px;
-}
-
-.animation {
-  opacity: 100;
-  animation: opacity 5s;
 }
 
 @keyframes opacity {

@@ -17,7 +17,7 @@ function createCard(projectDetails) {
 
 function Projects() {
     return (
-        <div className="bg" id="portfolio">
+        <div className="bg container-fluid" id="portfolio">
             <Row>
                 <Col className="col-12">
                     <h2>Projects</h2>
