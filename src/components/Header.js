@@ -11,9 +11,6 @@ function Header() {
     <a class="nav-link" href="#about">About</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#about">Resume</a>
-  </li>
-  <li class="nav-item">
     <a class="nav-link" href="#portfolio">Projects</a>
   </li>
   <li class="nav-item">
