@@ -1,7 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Header from "./components/Header"
+import Navigation from "./components/Navigation"
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -18,7 +18,7 @@ library.add(faChevronCircleDown);
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navigation />
       <Home />
       <About />
       <Technologies />

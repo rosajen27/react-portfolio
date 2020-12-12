@@ -35,6 +35,7 @@ body h2 {
 #navigation {
   padding-top: 20px;
   padding-bottom: 10px;
+  background-color: #f8f8ff;
 }
 
 .home-title {
@@ -59,16 +60,11 @@ body h2 {
   background-image: url("./images/mountain.jpg");
   background-size: cover;
   text-align: center;
-  color: #fff;
+  color: #f8f8ff;
   text-shadow: 2px 2px 5px #1b1b1b;
   display: table-cell;
   vertical-align: middle;
   margin: auto;
-}
-
-.home-arrow {
-  color: #fff;
-  opacity: 0.9;
 }
 
 .bg {
@@ -79,7 +75,7 @@ body h2 {
 }
 
 .dark {
-  color: #fff;
+  color: #f8f8ff;
   background: linear-gradient(to right, rgba(0, 94, 115, 0.9), rgba(195, 132, 233, 0.9)), url('./images/texture.png');
   background-attachment: fixed;
   background-position: center;
@@ -92,6 +88,7 @@ body h2 {
 #about {
   padding-left: 10%;
   padding-right: 10%;
+  background-color: #f8f8ff;
 }
 
 #about p {
@@ -102,6 +99,10 @@ body h2 {
   width: 75%;
   border-radius: 100%;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#projects {
+  background-color: #f8f8ff;
 }
 
 .card {
@@ -122,7 +123,7 @@ body h2 {
 
 #footer {
   text-align: center;
-  background-color: #eee;
+  background-color: #f8f8ff;
   padding: 50px 32px;
 }
 
