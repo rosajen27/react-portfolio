@@ -54,14 +54,15 @@ nav {
   animation: opacity 5s;
 }
 
-.home-container {
+#home {
   width: 100vw;
   height: 100vh;
   background-image: url("./images/mountain.jpg");
+  background-color: #1b1b1b;
   background-size: cover;
   text-align: center;
   color: #f8f8ff;
-  text-shadow: 2px 2px 5px #1b1b1b;
+  text-shadow: 4px 4px 10px #000;
   display: table-cell;
   vertical-align: middle;
   margin: auto;
@@ -77,6 +78,7 @@ nav {
 .dark {
   color: #f8f8ff;
   background: linear-gradient(to right, rgba(0, 94, 115, 0.9), rgba(195, 132, 233, 0.9)), url('./images/texture.png');
+  background-color: #1b1b1b;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
