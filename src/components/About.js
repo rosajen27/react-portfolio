@@ -14,7 +14,7 @@ function About() {
                     <br></br>
                 </Col>
                 <Col className="col-12 col-lg-6">
-                    <img class="about-img" alt="about-img" src="https://raw.githubusercontent.com/rosajen27/rosajen27.github.io/master/public/images/about.png"></img>
+                    <img class="about-img" alt="Jennifer Rosa" src="https://raw.githubusercontent.com/rosajen27/rosajen27.github.io/master/public/images/about.png"></img>
                     <br></br><br></br>
                 </Col>
 
@@ -30,7 +30,7 @@ function About() {
                     </p>
                     <br></br>
                     <form action="https://rosajen27.github.io/public/JENROSA.pdf">
-                    <button type="submit" class="btn btn-info btn-lg" ><FontAwesomeIcon icon={faFile} /> Resume</button>
+                    <button type="submit" class="btn btn-info btn-lg" ><FontAwesomeIcon icon={faFile} /> <b>Resume</b></button>
                     </form>
 
                 </Col>

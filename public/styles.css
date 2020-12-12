@@ -3,19 +3,28 @@
   scroll-behavior: smooth;
 }
 
+body p,
+body a {
+  font-size: 1.125rem;
+}
+
+html a {
+  font-weight: bold;
+  color: #1b1b1b;
+}
+
 body a:hover {
   text-decoration: none;
 }
 
-body p,
-body a {
-  font-size: 18px;
+.icons p {
+  line-height: 3.5rem;
 }
 
 .dark h2 {
   font-size: 3rem;
   font-weight: bold;
-  text-shadow: 2px 2px 5px #1b1b1b;
+  text-shadow: 2px 2px 5px #000;
 }
 
 body h2 {
@@ -31,10 +40,12 @@ body h2 {
 .home-title {
   font-size: 15vw;
   font-family: "Dancing Script", cursive;
+  text-shadow: 4px 4px 10px #000;
 }
 
 #home h2 {
   font-size: 4vw;
+  text-shadow: 4px 4px 10px #000;
 }
 
 .animation {
