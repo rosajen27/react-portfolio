@@ -131,6 +131,7 @@ footer {
 
 .social-icons {
   padding: 5px;
+  width: 50px;
 }
 
 @keyframes opacity {
