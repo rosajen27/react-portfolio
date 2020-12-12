@@ -3,7 +3,7 @@ const works = [
     id: 1,
     projecttitle: "FAQ",
     projecttech: "HTML, CSS, JavaScript",
-    projectdescription: "An interactive Frequently Ased Question card component.",
+    projectdescription: "An interactive Frequently Asked Question card component.",
     projectimg: "https://rosajen27.github.io/public/images/faq.png",
     deployedlink: "https://rosajen27.github.io/faq-card/",
     repolink: "https://github.com/rosajen27/faq-card"
