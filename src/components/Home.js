@@ -7,12 +7,12 @@ function Home() {
     return (
         <Row>
             <Col>
-                <div class="home-container">
+                <main class="home-container">
                     <div id="home" className="col-12 mx-auto container-fluid">
                         <h1 className="home-title animation">Jennifer Rosa</h1>
                         <h2 className="animation">Full-Stack Web Developer</h2>
                     </div>
-                </div>
+                </main>
             </Col>
         </Row>
     );

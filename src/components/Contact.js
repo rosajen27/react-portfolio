@@ -14,7 +14,7 @@ function Contact() {
                     <p>Feel free to reach out if you have questions, think we could work together, or simply would like to connect!</p>
                     <br></br>
                     <form action="mailto:rosajen27@gmail.com">
-                    <button type="submit" class="btn btn-info btn-lg" ><FontAwesomeIcon icon={faEnvelope} /> <b>rosajen27@gmail.com</b></button>
+                    <button type="submit" class="btn btn-info btn-lg" ><FontAwesomeIcon alt="email" icon={faEnvelope} /> <b>rosajen27@gmail.com</b></button>
                     </form>
                 </Col>
             </Row>

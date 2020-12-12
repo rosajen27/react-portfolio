@@ -30,7 +30,7 @@ function About() {
                     </p>
                     <br></br>
                     <form action="https://rosajen27.github.io/public/JENROSA.pdf">
-                    <button type="submit" class="btn btn-info btn-lg" ><FontAwesomeIcon icon={faFile} /> <b>Resume</b></button>
+                    <button type="submit" class="btn btn-info btn-lg" ><FontAwesomeIcon alt="resume" icon={faFile} /> <b>Resume</b></button>
                     </form>
 
                 </Col>

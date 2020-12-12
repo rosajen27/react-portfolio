@@ -7,7 +7,7 @@ function Card(props) {
 
         <Col className="col-lg-4 col-12">
             <div class="card">
-                <img src={props.projectimg} className="card-img-top" alt="project art"></img>
+                <img src={props.projectimg} className="card-img-top" alt={props.projecttitle}></img>
                 <div className="card-body">
                     <h3 className="card-title">{props.projecttitle}</h3>
                     <p>{props.projecttech}</p>

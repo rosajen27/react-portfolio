@@ -32,7 +32,7 @@ body h2 {
   font-weight: bold;
 }
 
-#navigation {
+nav {
   padding-top: 20px;
   padding-bottom: 10px;
   background-color: #f8f8ff;
@@ -121,7 +121,7 @@ body h2 {
   margin: auto;
 }
 
-#footer {
+footer {
   text-align: center;
   background-color: #f8f8ff;
   padding: 50px 32px;

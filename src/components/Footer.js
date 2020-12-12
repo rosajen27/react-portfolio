@@ -6,7 +6,7 @@ function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className="bg container-fluid" id="footer">
+        <footer className="bg container-fluid">
             <Row>
                 <Col className="col-12">
                     <a href="#navigation">Back to Top</a>
@@ -17,7 +17,7 @@ function Footer() {
                     <p>© Copyright Jennifer Rosa {currentYear}</p>
                 </Col>
             </Row>
-        </div>
+        </footer>
     );
 }
 

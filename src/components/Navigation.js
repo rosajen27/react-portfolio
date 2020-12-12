@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation() {
   return (
-    <div id="navigation">
+    <nav id="navigation">
 <ul class="nav justify-content-end">
   <li class="nav-item">
     <a class="nav-link active" href="#home">Home</a>
@@ -17,7 +17,7 @@ function Navigation() {
     <a class="nav-link" href="#contact">Contact</a>
   </li>
 </ul>
-    </div>
+    </nav>
   );
 }
 
