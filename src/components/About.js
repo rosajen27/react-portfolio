@@ -14,12 +14,12 @@ function About() {
                     <br></br>
                 </Col>
                 <Col className="col-12 col-lg-6">
-                    <img class="about-img" alt="Jennifer Rosa" src="https://raw.githubusercontent.com/rosajen27/rosajen27.github.io/master/public/images/about.png"></img>
+                    <img className="about-img" alt="Jennifer Rosa" src="https://raw.githubusercontent.com/rosajen27/rosajen27.github.io/master/public/images/about.png"></img>
                     <br></br><br></br>
                 </Col>
 
                 <Col className="col-12 col-lg-6">
-                    <p class="about-text">
+                    <p className="about-text">
                         Hello, World! My name is Jennifer Rosa and I am an elementary school teacher, based in Connecticut, who is transitioning out of the classroom and into the world of Web Development.
                         <br></br><br></br>
                         When I am not teaching my lovely students, I am passionately creating dynamic and beautiful web pages and web apps. I build full stack applications using JavaScript, MongoDB, Express, React.js, and Node.js.
@@ -30,7 +30,7 @@ function About() {
                     </p>
                     <br></br>
                     <form action="https://rosajen27.github.io/public/JENROSA.pdf">
-                    <button type="submit" class="btn btn-info btn-lg" ><FontAwesomeIcon alt="resume" icon={faFile} /> <b>Resume</b></button>
+                    <button type="submit" className="btn btn-info btn-lg" ><FontAwesomeIcon alt="resume" icon={faFile} /> <b>Resume</b></button>
                     </form>
 
                 </Col>
