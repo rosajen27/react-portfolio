@@ -39,14 +39,15 @@ nav {
 }
 
 .home-title {
-  font-size: 12.5rem;
+  font-size: 10vw;
   font-family: "Dancing Script", serif;
   text-shadow: 4px 4px 10px #000;
 }
 
 #home h2 {
-  font-size: 3rem;
+  font-size: 3vw;
   text-shadow: 4px 4px 10px #000;
+  font-weight: 400;
 }
 
 .animation {
@@ -66,9 +67,6 @@ nav {
   display: table-cell;
   vertical-align: middle;
   margin: auto;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .bg {
